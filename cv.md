@@ -2,11 +2,11 @@
 
 ## Contacts
 
-*mobile: +375 29 1142820
+mobile: +375 29 1142820
 
-*e-mail: sergeyshakuro@gmail.com
+e-mail: sergeyshakuro@gmail.com
 
-*[My page at linkedin](https://www.linkedin.com/in/sergey-shakuro-78b0a887/)
+[My page at linkedin](https://www.linkedin.com/in/sergey-shakuro-78b0a887/)
 
 ## About me
 I am responsible, sociable and easy to learn. 
