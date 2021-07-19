@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header_content{
+    width: 80%;
+    display: grid;
+    margin-left: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    background-color:blue;
+    grid-column-gap:0ch;
+    grid-row-gap:0ch;
+    }
+.photo{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: right;
+}
+.name{
+    position: relative;
+    justify-self: left;
+    padding: 10px;
+    margin-top: 75px;
+    font-size: large;
+}
