@@ -1,26 +1,57 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
+    max-width: 95%;
 }
-.header_content{
-    width: 80%;
+.wrapper_header {
     display: grid;
-    margin-left: 10%;
-    grid-template-columns: repeat(2, 1fr);
-    background-color:blue;
-    grid-column-gap:0ch;
-    grid-row-gap:0ch;
-    }
-.photo{
-    border-radius: 15px;
-    padding: 10px;
-    text-align: right;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: auto;
+    background-color:indianred;
 }
+.photo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: right;
+    padding-right: 30px;
+    padding-top: 5px;
+    }
 .name{
-    position: relative;
-    justify-self: left;
-    padding: 10px;
-    margin-top: 75px;
-    font-size: large;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+.contacts{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.wrapper_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.about_me{
+    margin: 3px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.line{
+    border:none;
+    background-color:red;
+    color:red;
+    height: 2px;
+}
+.foto{
+    grid-column:1/1;
+    grid-row:1/1;
+    justify-self: right;
+    padding-right: 15px;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-self: right;
+    background-color:indianred;
 }
