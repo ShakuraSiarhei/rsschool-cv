@@ -1,1 +1,1 @@
-https://ShakuraSiarhei.github.io/rsschool-cv/cv
+https://ShakuraSiarhei.github.io/rsschool-cv/
